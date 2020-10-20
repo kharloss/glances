@@ -1,7 +1,7 @@
 #
 # Glances Dockerfile based on Alpine OS
 #
-# https://github.com/nicolargo/glances
+# https://github.com/kharloss/glances
 #
 
 # Pull base image.
@@ -9,7 +9,7 @@ FROM alpine
 
 # Install Glances (develop branch)
 RUN apk add python3 py3-psutil py3-bottle git
-RUN git clone -b develop https://github.com/nicolargo/glances.git
+RUN git clone -b develop https://github.com/kharloss/glances.git
 
 # Define working directory.
 WORKDIR /glances

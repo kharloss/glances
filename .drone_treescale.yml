@@ -1,0 +1,12 @@
+steps:
+- name: docker  
+  image: plugins/docker
+    repo: repo.treescale.com/kharloss/glances
+    registry: repo.treescale.com
+settings:
+    username:
+      from_secret: treescale_username
+    password:
+      from_secret: treescale_password
+      auto_tag: true
+    auto_tag_suffix: drone-build
