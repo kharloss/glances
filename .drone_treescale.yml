@@ -7,7 +7,7 @@ steps:
   commands:
   - pip install -r requirements.txt
 
-- name: treescale
+- name: publish
   image: plugins/docker
     repo: repo.treescale.com/kharloss/glances
     registry: repo.treescale.com
