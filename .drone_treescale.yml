@@ -1,5 +1,13 @@
+kind: pipeline
+name: default
+
 steps:
-- name: docker  
+- name: test
+  image: python
+  commands:
+  - pip install -r requirements.txt
+
+- name: treescale
   image: plugins/docker
     repo: repo.treescale.com/kharloss/glances
     registry: repo.treescale.com
