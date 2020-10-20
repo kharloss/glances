@@ -9,7 +9,7 @@ steps:
 - name: docker
   image: plugins/docker
   settings:
-    repo: repo.treescale.com
+    repo: repo.treescale.com/kharloss/glances
     registry: kharloss/glances
     username:
       from_secret: treescale_username
