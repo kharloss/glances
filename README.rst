@@ -1,5 +1,5 @@
 ===============================
-Glances - An eye on your system
+Glances - An eye on your system -
 ===============================
 
 .. image:: https://img.shields.io/pypi/v/glances.svg
